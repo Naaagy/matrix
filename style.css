@@ -1,0 +1,31 @@
+#matrix-container {
+  text-align: center;
+  margin: 20px;
+}
+
+#matrix {
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-color: lightblue;
+}
+
+#matrix td {
+  width: 80px;
+  height: 80px;
+  border: 3px solid #000;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#clear-button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #f00;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
